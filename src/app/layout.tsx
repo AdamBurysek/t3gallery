@@ -15,7 +15,7 @@ export const metadata = {
 
 const TopNav = () => (
   <nav>
-    <div className="w-fill flex items-center justify-between p-4 p-5 text-xl font-semibold">
+    <div className="w-fill ml-5 mt-5 flex items-center justify-between p-4 text-xl font-semibold">
       Gallery
     </div>
   </nav>
