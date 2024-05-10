@@ -8,8 +8,8 @@ export default async function HomePage() {
   });
 
   return (
-    <main className="m-10">
-      <div className="flex flex-wrap gap-4 ">
+    <main className="m-10 flex justify-center">
+      <div className="max-w-content flex w-full flex-wrap gap-4 ">
         {[...images, ...images, ...images].map((image, index) => (
           <div key={index} className="w-48 overflow-hidden">
             <img src={image.url} className="duration-300 hover:scale-110" />
